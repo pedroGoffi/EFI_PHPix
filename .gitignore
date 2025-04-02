@@ -1,0 +1,40 @@
+# Arquivos de sistema
+*.DS_Store
+Thumbs.db
+
+# Dependências do Composer
+/vendor/
+composer.lock
+
+# Configurações de ambiente
+.env
+.env.local
+.env.*.local
+
+# Cache e logs
+storage/logs/
+storage/framework/
+bootstrap/cache/
+
+# Sessões e uploads
+storage/sessions/
+storage/app/public/
+
+# Banco de dados local
+database/*.sqlite
+database/*.sqlite-journal
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# PHPUnit
+phpunit.xml
+phpunit.xml.dist
+
+# Outros
+node_modules/
+npm-debug.log
+yarn-error.log
