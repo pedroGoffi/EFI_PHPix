@@ -1,19 +1,18 @@
 <?php
-
 /**
  * Plugin Name: EFI Pix Payment
  * Description: Integração com a API Pix da EFI Bank para pagamentos.
  * Version: 1.0
  * Author: Digital Soul | Pedro H. Goffi & Willian Silva
  * License: GPL2 
-*/
+ */
+/** @NOTE: Esse arquivo usa funções do wordpress */
 
 // Main plugin file efi-pix-payment.php
 if ( ! defined( 'ABSPATH' ) ) {
     exit; // Exit if accessed directly
 }
 
-require_once plugin_dir_path( __FILE__ ) . 'includes/pix-api.php';
 require_once plugin_dir_path( __FILE__ ) . 'settings.php';
 
 // Register Settings and Admin Menu
