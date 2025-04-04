@@ -8,6 +8,10 @@ Este projeto fornece uma implementação em PHP para integração com a API Pix 
 - Certificado da API Pix da Efi Bank (.p12 ou .pem)  
 - Conta EfiPay com credenciais válidas  
 
+## Pré-Instalação
+```bash
+    composer require efipay/sdk-php-apis-efi:^1.12
+```
 
 
 ## 🛠 Uso  
